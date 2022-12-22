@@ -1,0 +1,29 @@
+.scanner-cart canvas{
+    position: absolute;
+    left : 0px;
+    top: 0px;
+}
+
+.cam-space {
+    height: 320px !important;
+    width: 812px !important;
+    /* margin-left: 5vh; */
+}
+
+.cashier-body{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-button{
+    padding-left: 364px;
+    padding-right: 364px;
+}
+
+.item-group{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}

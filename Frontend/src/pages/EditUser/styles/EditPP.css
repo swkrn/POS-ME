@@ -1,0 +1,46 @@
+.payment-page{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-payment{
+    margin-top: 10%;  
+    margin-bottom: 10%;
+}
+
+.new-number{
+    background-color:antiquewhite;
+    /* border-color: #eac43d; */
+    width: 400px;
+    height: 100px;
+    margin-top: 50px;
+    /* margin-left: 120px; */
+    border-radius: 100px;
+    font-size: 32px;
+    justify-content: center;
+    text-align: center;
+}
+
+.save-number{
+    background-color: #2a5c99;
+    height: 100px;
+    width: 200px;
+    margin-top: 20%;
+    /* margin-left: 240px; */
+    border-radius: 25px;
+    border-color: #2a5c99;
+    color: aliceblue;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 38px;
+}
+
+.p-text{
+    color: #eac43d;
+    font-size: 50px;
+}

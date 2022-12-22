@@ -1,0 +1,61 @@
+.background {
+    position: fixed;
+    height: 130%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .warning_box {
+    position: absolute;
+    width: 70%;
+    height: 40%;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10% 0;
+    border-radius: 5px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    font-size: 2.4rem;
+    cursor: pointer;
+  }
+  
+  .logo {
+    font-size: 8rem;
+    color: red;
+    margin-bottom: 4.8rem;
+  }
+  
+  .text {
+    font-size: 150%;
+    color: black;
+  }
+  
+  .textWarning {
+    font-size: 200%;
+    font-weight: 500;
+    color: black;
+  }
+  
+  .textWarning:not(:last-child) {
+    margin-bottom: 5%;
+  }
+  
+  .text:not(:last-child) {
+    margin-bottom: 5%;
+  }
+  
+  .errIcon {
+    width: 25%;
+    margin-bottom: 5%;
+  }
+  

@@ -1,0 +1,133 @@
+.personal-info{
+    background-color: white;
+    height: 250px;
+    text-align: center;
+    width: 700px;
+    margin:0px auto;
+    border :5px solid #eac43d;
+    border-radius: 80px;
+    font-size: 48px;
+    padding: 80px;
+}
+
+.resume-page-logo{
+    /* height: 200px;  */
+    /* margin-left:435px; */
+    margin-top: 5%;
+    /* margin-bottom: 3%; */
+}
+
+.e-info {
+    margin-top: 2%;
+}
+
+.save-editpage{
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    /* font-weight: 100%; */
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+.e-username{
+    height: 50px;
+    width:700px;
+    margin:0px 162px 0;
+    text-align: center;
+    border :5px solid #eac43d;
+    border-radius: 100px ;
+    font-size: 50px;
+}
+
+.e-storename{
+    height: 50px;
+    width: 700px;
+    margin:0 162px 0;
+    text-align: center;
+    border :5px solid #eac43d;
+    border-radius: 100px ;
+    font-size: 25px;
+}
+
+.e-address{
+    height: 100px;
+    width: 700px;
+    margin:0 162px 0;
+    text-align: center;
+    border :5px solid #eac43d;
+    border-radius: 30px ;
+    font-size: 25px;
+}
+.e-fname{
+    height: 50px;
+    width: 700px;
+    margin:0 162px 0;
+    text-align: center;
+    border :5px solid #eac43d;
+    border-radius: 100px ;
+    font-size: 25px;
+}
+.e-lname{
+    height: 50px;
+    width: 700px;
+    margin:0 162px 0;
+    text-align: center;
+    border :5px solid #eac43d;
+    border-radius: 100px ;
+    font-size: 25px;
+}
+.e-mail{
+    height: 50px;
+    width: 700px;
+    margin:0 162px 0;
+    text-align: center;
+    border :5px solid #eac43d;
+    border-radius: 100px ;
+    font-size: 25px;
+}
+
+.e-tax{
+    height: 50px;
+    width: 700px;
+    margin: 0 162px 0;
+    text-align: center;
+    border:5px solid #eac43d;
+    border-radius:100px;
+    font-size: 25px;
+    
+}
+
+.u-text{
+    color: white;
+    font-size: 28px;
+    margin-left: 17%;
+    /* margin-top: 5%; */
+}
+
+.fix-username{
+    height: 50px;
+    width: 700px;
+    margin: 0 162px 0;
+    text-align: center;
+    border:5px solid #eac43d;
+    border-radius:100px;
+}
+
+.fix-u-text{
+    color: #eac43d;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.hello{
+    color: black;
+}
+
+.editpf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

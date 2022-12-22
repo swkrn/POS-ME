@@ -1,0 +1,57 @@
+  .section_prev_receipt {
+    background-color: #242e38;
+    /* height: 100vh; */
+    color: white;
+    overflow: scroll;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    /* max-width: 120rem; */
+    /* height: 90rem; */
+    /* width: 90rem; */
+    /* padding: 8.2rem 0; */
+    margin-top: 5%;
+  }
+  
+  .month_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    font-size: 32px;
+    margin-bottom: 5%;
+  }
+  
+  .all_receipt_box {
+    width: 100%;
+  }
+  
+  .receipt_heading {
+    font-size: 32px;
+  }
+  
+  .receipt_no {
+    font-size: 32px;
+    margin-bottom: 2%;
+  }
+  
+  .receipt_box {
+    font-size: 32px;
+    background-color: white;
+    color: black;
+    padding: 1rem 1.6rem;
+    border: 3px solid #fcd87c;
+    list-style: none;
+    margin-bottom: 2.4rem;
+  }
+  
+  .receipt_info_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

@@ -1,0 +1,51 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.income{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.baht {
+  margin-left: 1rem;
+}
+
+.spc_btw{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.buttom{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.input3 {
+    border: 2px solid #fcd87c;
+    background-color: white;
+    border-radius: 15px;
+    font-size: larger;
+    margin-left: 1rem;
+    text-align: center;
+    /* padding: 1rem 2rem; */
+}
+
+.textbox2{
+    display: flex;
+    margin-bottom: 5rem;
+    background-color: white;
+    border: 2px solid #fcd87c;
+    color:black;
+}
+
+.table {
+  text-align: center;
+}

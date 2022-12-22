@@ -1,0 +1,106 @@
+.edit-box{
+    text-align: center;
+    height: 15vh;
+    width: 25vh;
+    margin-top: 8vh;
+    left :100px;
+    border :5px solid #eac43d;
+    border-radius: 40px;
+    font-weight: 100px;
+}
+
+.resume-logo{
+    display: block;
+    margin: 30px auto 10px auto !important;
+}
+
+.edit-box span{
+    color: white;
+    font-size: 22px;
+}
+
+.pp-box{
+    text-align: center;
+    height: 15vh;
+    width: 25vh;
+    margin-top: 35px;
+    left :100px;
+    border :5px solid #eac43d;
+    border-radius: 40px;
+    margin-bottom: 5vh;
+}
+
+.pp-box span{
+    color: white;
+    font-size: 22px;
+}
+
+.psswd-box{
+    text-align: center;
+    height: 15vh;
+    width: 25vh;
+    margin-top: 35px;
+    left :100px;
+    border :5px solid #eac43d;
+    border-radius: 40px;
+}
+
+.lock-photo2{
+    display: block;
+    margin: 30px auto 10px auto !important;
+}
+
+.psswd-box span{
+    color: white;
+    font-size: 22px;
+}
+
+.pay-box{
+    text-align: center;
+    height: 15vh;
+    width: 25vh;
+    margin-top: 35px;
+    left :100px;
+    border :5px solid #eac43d;
+    border-radius: 40px;
+}
+
+.pay-logo2{
+    display: block;
+    margin: 30px auto 10px auto !important;
+}
+
+.pay-box span{
+    color: white;
+    font-size: 22px;
+}
+
+.delete-box{
+    text-align: center;
+    height: 15vh;
+    width: 25vh;
+    margin-top: 35px;
+    left :100px;
+    border :5px solid #eac43d;
+    border-radius: 40px;
+}
+
+.delete-box span{
+    color: white;
+    font-size: 22px;
+}
+
+.bin-photo{
+    display:block;
+    margin: 30px auto 10px auto !important;
+}
+
+.user_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.font{
+    text-decoration: none
+}

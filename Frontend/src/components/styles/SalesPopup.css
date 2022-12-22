@@ -1,0 +1,35 @@
+.closeButton {
+    transition-duration: 0.4s;
+    border-radius: 1.5rem;
+    display: flex;
+    margin: 10px 0 10px 10px;
+
+  }
+  
+.closeButton:hover {
+    background-color: #EAC43D;
+    color: white;
+  }
+  
+.value-total{
+    width: 500px;
+    Background:#fff;
+    border-radius:6px;
+    position: absolute;
+    top: 20%;
+    right: 80%;
+    transform:translate( 100%,50%);
+    text-align: center;
+    padding: 0 10px 30px;
+    color: #333;
+    /* visibility: hidden; */
+    transition: transform 0.4s,top 0.4s;
+}
+
+.popup-img{
+    margin-bottom: 20px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #333;
+}

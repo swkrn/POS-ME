@@ -1,0 +1,83 @@
+.main {
+  /* max-width: 130rem; */
+  margin: 0 auto;
+  padding: 0 12rem;
+  background-color: #242e38;
+  height: 100vh;
+}
+
+.section_register {
+  padding: 3.2rem 0;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lock_image {
+  width: 60%;
+  display: block;
+  margin-bottom: 4.8rem;
+}
+
+.block {
+  display: block;
+}
+
+.input_field {
+  display: block;
+  /* position: relative; */
+  /* overflow: scroll; */
+  margin-bottom: 2.4rem;
+  background-color: #fdeedc;
+  font-size: 1.8rem;
+  padding: 1.6rem 3.2rem;
+  /* padding-bottom: 10rem; */
+  border-radius: 100px;
+  border: none;
+  width: 35rem;
+  /* height: 10rem; */
+}
+
+.input_field::placeholder {
+  text-align: center;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+/* 
+button {
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+  border-radius: 100px;
+  width: 35rem;
+  height: 6.4rem;
+} */
+
+.login_btn {
+  border: none;
+  background-color: #ffb923;
+  color: #fff;
+
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+  border-radius: 100px;
+  width: 35rem;
+  height: 6.4rem;
+}
+
+.register_btn {
+  border: none;
+  background-color: #283b7a;
+  color: #fff;
+
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+  border-radius: 100px;
+  width: 35rem;
+  height: 6.4rem;
+}

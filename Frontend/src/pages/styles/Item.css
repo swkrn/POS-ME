@@ -1,0 +1,78 @@
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+
+.search {
+    border-radius: 8px;
+    border-color: #eac43d;
+    margin-top: 1rem;
+    width: 300px;
+}
+
+.add_button {
+    width: 85px;
+    position: fixed;
+    right: 5%;
+    top: 88%;
+}
+
+.item_detail {
+    width: 400px;
+    color: black;
+}
+
+.item_barcode {
+    text-align: left;
+    margin-top: 10px;
+    color: black;
+}
+
+.item_price {
+    text-align: right;
+    color: black;
+}
+
+.search_container {
+    background-color: #242E38;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.search_container_cart {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.scanner_btn_Item {
+    background-color: white;
+    width: fit-content;
+    border: none;
+    border-radius: 0.75rem;
+    margin-left: 10px;
+}
+
+.select_type {
+    margin-top: 13px;
+    height: 30px;
+    min-width: 200px;
+}
+
+.add_item_type_btn {
+    margin-left: 5px;
+}
+
+.filter_label {
+    margin-top: 13px;
+}

@@ -1,0 +1,12 @@
+.close_btn {
+    all : inherit;
+    border: none;
+    background-color: white;
+    margin: 10px 0px 0px 10px;
+    width: 60px;
+}
+
+.close_btn_img {
+    all: inherit;
+    width: 50px;
+}

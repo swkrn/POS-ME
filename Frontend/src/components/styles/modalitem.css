@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap%27');
+
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.modal_container {
+    background-color: #fff;
+    margin: 30% auto 0;
+    width: 500px;
+    border-radius: 10px;
+    border-color: black;
+    margin-top: 50%;
+}
+
+.modal_container2 {
+    background-color: #fff;
+    margin: 30% auto 0;
+    width: 500px;
+    border-radius: 10px;
+    border-color: black;
+    margin-top: 33.5%;
+}
+
+.modal_container3 {
+    background-color: #fff;
+    margin: 30% auto 0;
+    width: 500px;
+    border-radius: 10px;
+    border-color: black;
+    margin-top: 10%;
+    padding-bottom: 20px;
+}
+
+.modal_container4 {
+    background-color: #fff;
+    margin: 30% auto 0;
+    width: 500px;
+    border-radius: 10px;
+    border-color: black;
+    margin-top: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finish_img {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+
+.background {
+    position: fixed;
+    height: 150vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal_detail {
+    display: flex;
+    gap: 1rem;
+}
+
+.item_label {
+    margin-top: 5px;
+    padding-left: 1rem;
+}
+
+.item_data {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 5px;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+}
+
+.edit_btn {
+    border-radius: 1.75rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.close_btn {
+    border: none;
+    background-color: white;
+    margin: 10px 0px 0px 10px;
+}
+
+.close_btn_Addcart {
+    border: none;
+    background-color: white;
+    margin: 10px 0px 0px 10px;
+}
+
+.close_btn_img {
+    width: 50px;
+}
+
+.close_btn_img_Addcart {
+    width: 50px;
+}
+
+.editinput {
+    margin-left: 0.5rem;
+}
+
+.price_edit_input {
+    width: 70px;
+    margin-right: 0.5rem;
+}
+
+.edit_detail {
+    margin-bottom: 0.75rem;
+}
+
+.accept_edit_btn {
+    border-radius: 1.75rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-right: 0.25rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete_item_btn {
+    border-radius: 1.75rem;
+    margin-bottom: 1rem;
+    margin-left: 0.25rem;
+    padding: 1rem;
+    border: none;
+    background-color: #f44336;
+    color: white;
+}

@@ -1,0 +1,76 @@
+.additem_container {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 450px;
+    text-align: center;
+}
+
+.additem_input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0.5rem;
+}
+
+.price_input {
+    width: 70px;
+    margin-right: 0.5rem;
+}
+
+.item_type {
+    display: flex;
+}
+
+.scanner_btn {
+    all: initial;
+    margin-left: 0.5rem;
+}
+
+.scanner_btn_img {
+    height: 50px;
+}
+
+
+.add_btn_img {
+    width: 50px;
+}
+
+.Add_title {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.item_type {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.type_label {
+    margin-right: 0.5rem;
+}
+
+.add_item_type_btn {
+    border-radius: 1.75rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-right: 0.25rem;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+}
+
+.add_item_btn {
+    border-radius: 1.75rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-right: 0.25rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.filter_label {
+    color: white;
+    margin-right: 5px;
+}

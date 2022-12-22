@@ -1,0 +1,86 @@
+.u_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section_QR {
+    /* background-color: #242e38; */
+    height: 100vh;
+    font-family: "Bai Jamjuree", sans-serif;
+    color: white;
+  
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding-top: 7.2rem;
+  }
+  
+  .container {
+    max-width: 120rem;
+    height: 60rem;
+    width: 60rem;
+  }
+  
+  .price_box {
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 2.4rem; */
+    /* margin-bottom: 4.8rem; */
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+  }
+  
+  .qr_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 8.6rem; */
+  }
+  
+  .qr_img {
+    width: 70%;
+    display: block;
+    /* margin-bottom: 1.6rem; */
+    border-radius: 12px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  
+  .qr_card {
+    /* height: 30rem; */
+    /* width: 40rem; */
+    padding: 3.2rem 4.8rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    /* font-size: 2rem; */
+    border-radius: 12px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    /* margin-bottom: 6.4rem; */
+  }
+  
+  .qr_phone_num {
+    margin-top: 1.8rem;
+  }
+  
+  /* .button {
+    color: #eac43d;
+    background-color: #283b7a;
+    border-radius: 100px;
+    border: none;
+    padding: 1rem 8rem;
+    width: 40rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  } */
+  .button:hover {
+    background-color: white;
+    color: black;
+  }

@@ -1,0 +1,106 @@
+/* Navbar */
+.name {
+    color: #242e38;
+    font-weight: 550;
+}
+
+.logout {
+    color: #242e38;
+    font-weight: 550;
+    padding-top: 0rem;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+.navbar {
+    margin-block-end: 0;
+}
+
+/* Title */
+.fade-out {
+    animation: fadeOut ease 2.5s;
+    -webkit-animation: fadeOut ease 2.5s;
+    -moz-animation: fadeOut ease 2.5s;
+    -o-animation: fadeOut ease 2.5s;
+    -ms-animation: fadeOut ease 2.5s;
+  }
+  body {
+    background-color: #242e38;
+  }
+  .Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    flex-direction: column;
+    display: flex;
+    width: 70%;
+    margin-top: 45%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  
+  }
+  .text_wel {
+    color: #eac43d;
+    font-size: 30pt;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    @keyframes fadeOut {
+      0% {
+        opacity:1;
+      }
+      100% {
+        opacity:0;
+      }
+    }
+    
+    @-moz-keyframes fadeOut {
+      0% {
+        opacity:1;
+      }
+      100% {
+        opacity:0;
+      }
+    }
+    
+    @-webkit-keyframes fadeOut {
+      0% {
+        opacity:1;
+      }
+      100% {
+        opacity:0;
+      }
+    }
+    
+    @-o-keyframes fadeOut {
+      0% {
+        opacity:1;
+      }
+      100% {
+        opacity:0;
+      }
+    }
+    
+    @-ms-keyframes fadeOut {
+      0% {
+        opacity:1;
+      }
+      100% {
+        opacity:0;
+      }
+    }
+
+    .pagename {
+      color: #242e38;
+      font-weight: 550;
+      font-size: 18pt;
+      font-weight: 500;
+    }

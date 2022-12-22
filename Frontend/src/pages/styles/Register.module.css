@@ -1,0 +1,128 @@
+.regisLogo {
+    width: 30%;
+    display: block;
+    /* margin-left: 7.2rem; */
+    margin-bottom: 4%;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.input1 {
+    border: 2px solid #fcd87c;
+    margin-bottom: 1.6rem;
+    border-radius: 10px;
+    /* padding: 4rem 6rem;  */
+    width: 30rem;
+    height: 8rem;
+    background-color: #fffcf5;
+    overflow: scroll;
+    resize: none;
+}
+  
+.input1::placeholder {
+    color: black;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+}
+  
+.input3 {
+    border: 2px solid #fcd87c;
+    background-color: #fffcf5;
+    margin-bottom: 1.6rem;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    width: 30rem;
+}
+  
+.input2 {
+    background-color: #fcd87c;
+    margin-bottom: 1.6rem;
+    border-radius: 100px;
+    border: none;
+    padding: 1rem 2rem;
+    width: 30rem;
+  }
+  
+  .input2:focus:placeholder {
+    color: transparent;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .button {
+    display: flex;
+  }
+
+  .block {
+    display: block;
+  }
+  .login_btn {
+    border: none;
+    background-color: #283b7a;
+    color: #fff;
+  
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+    border-radius: 100px;
+    width: 20rem;
+    height: 4rem;
+  }
+  
+  .register_btn {
+    border: none;
+    background-color: #ffb923;
+    color: #fff;
+  
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+    border-radius: 100px;
+    width: 20rem;
+    height: 4rem;
+  }
+
+  .main {
+    /* max-width: 130rem; */
+    margin: 0 auto;
+    /* padding: 3.2rem 10.8rem; */
+    padding-top: 3%;
+    background-color: #242e38;
+    font-size: 120%;
+    color: white;
+    height: 100vh;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .label {
+    display: inline-block;
+    margin-right: 0.4rem;
+    vertical-align: middle;
+    width: 6rem;
+    text-align: right;
+  }
+  
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .label_address {
+    margin-right: 0.4rem;
+    display: inline-block;
+  
+    vertical-align: middle;
+    width: 6rem;
+    text-align: right;
+  }
